@@ -1,6 +1,4 @@
-﻿
-
-var BaseURL = "http://appwebmie1820.runasp.net/";
+﻿var BaseURL = "http://appwebmie1820.runasp.net/";
 jQuery(function () {
     let URL = BaseURL + "api/TipoTelefonos/LlenarCombo";
     LlenarTablaClientes();

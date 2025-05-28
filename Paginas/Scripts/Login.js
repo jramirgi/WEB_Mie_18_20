@@ -3,7 +3,7 @@
     //let: Variable local para la página
     //const: Constante local para la página
     //Se define la ruta donde está el servicio para ejecutar
-    let BaseURL = "http://appwebmie1820.runasp.net/";
+    let BaseURL = "http://appwebmie1820.runasp.net/";//"http://localhost:44323/";
     let URL = BaseURL + "api/Login/Ingresar";
     //Para crear una instancia del objeto en js, se crea con const NombreObjeto = new NombreClase(Datos del constructor)
     const login = new Login($("#txtUsuario").val(), $("#txtClave").val(), "");
